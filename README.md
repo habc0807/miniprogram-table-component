@@ -1,3 +1,8 @@
+# miniprogram-table-component
+
+小程序自定义table组件
+> 使用此组件需要依赖小程序基础库 2.2.2 版本，同时依赖开发者工具的 npm 构建。具体详情可查阅[官方 npm 文档](https://github.com/wechat-miniprogram/miniprogram-custom-component/blob/master/README.md)。
+
 # miniprogram-custom-component
 
 小程序自定义组件开发模板：
