@@ -1,19 +1,14 @@
-*.lock
-nohup.out
-*.php~
-*.old
 .idea
-**/node_modules
 .DS_Store
-*.TMP
-.buildpath
-.project
-.settings.idea
-static/img/activities/
-deploy.sh
-/js/page/Gulpfile.js
+package-lock.json
 
-/app_src/node_modules/
-package.json.back
-./vscode
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
+miniprogram_dist
+miniprogram_dev
+node_modules
+coverage
