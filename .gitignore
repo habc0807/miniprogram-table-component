@@ -16,6 +16,4 @@ deploy.sh
 /app_src/node_modules/
 package.json.back
 ./vscode
-# fund 目录被h5_fund仓库征用
-/static/html/fund
 

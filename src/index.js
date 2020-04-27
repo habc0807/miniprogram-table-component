@@ -1,5 +1,3 @@
-const _ = require('./utils')
-
 Component({
   /**
    * 外部样式类
