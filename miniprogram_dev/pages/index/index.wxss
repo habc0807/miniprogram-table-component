@@ -28,14 +28,11 @@
 .row-class:nth-child(2n) {
     background-color: #c1e4c175;
 }
-.row-class {
-    color:red;
-}
-.cell-class {
+/* .cell-class {
     border-right: 1rpx solid #fff!important;
 }
 .cell-class:last-child {  
     border-right: none!important;
-}
+} */
 
 

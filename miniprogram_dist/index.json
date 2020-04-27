@@ -1,8 +1,6 @@
 {
   "component": true,
-  "usingComponents": {
-    "other": "./other"
-  },
+  "usingComponents": {},
   "componentGenerics": {
     "genericsTest": true
   }

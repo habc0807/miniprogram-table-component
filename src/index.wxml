@@ -25,13 +25,13 @@
         wx:if="{{ data.length > 0 }}" 
         wx:for-item="it" 
         wx:for="{{ data }}" 
-        wx:key="{{ it.id }}" 
+        wx:key="*this" 
         wx:for-index="idx"
       >
         <view class="tbody-tr {{ stripe ? 'tbody-tr-stripe' : '' }} {{ border ? 'tbody-tr-border' : ''}} row-class-name">
           <view wx:for-item="head" 
             wx:for="{{ headers }}" 
-            wx:key="{{ it.id }}" 
+            wx:key="*this" 
             class="td cell-class-name" 
             data-it="{{it}}" 
             data-row="{{index}}" 

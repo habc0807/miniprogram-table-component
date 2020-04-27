@@ -9,9 +9,6 @@
   border-radius: 8rpx;  
   overflow: hidden;
 }
-.table-noborder {
-  border-right: 1rpx solid #ccc;
-}
 .thead{
   border-bottom: none;
   display: flex;
@@ -40,19 +37,10 @@
 .thead-border .td:last-child {
   border-right: none;
 }
-/* .td-no-border {  
-  border-right: none;
-}
-.td-yes-border {  
-  border-right: 1rpx solid #fff;
-} */
-.td-yes-border:last-child {  
-  border-right: none;
-}
-.tr{
+/* .tr{
   display: flex;
   white-space:nowrap; 
-}
+} */
 .tbody {
   box-sizing: border-box;
   font-size: 28rpx;
@@ -94,4 +82,5 @@
   display: flex;
   padding: 50rpx;
   color: #666;
+  justify-content: center;
 }
