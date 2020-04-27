@@ -1,0 +1,21 @@
+*.lock
+nohup.out
+*.php~
+*.old
+.idea
+**/node_modules
+.DS_Store
+*.TMP
+.buildpath
+.project
+.settings.idea
+static/img/activities/
+deploy.sh
+/js/page/Gulpfile.js
+
+/app_src/node_modules/
+package.json.back
+./vscode
+# fund 目录被h5_fund仓库征用
+/static/html/fund
+
