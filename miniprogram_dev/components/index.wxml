@@ -1,0 +1,53 @@
+<scroll-view scroll-x="true" style="width:100%;"  class="table table-border">
+    <!-- 表格头 start -->
+    <view 
+        class="thead {{ border ? 'thead-border' : ''}} header-row-class-name" 
+        style="width:{{ scrolWidth }}rpx;"
+    >
+      <view 
+        wx:for="{{ headers }}" 
+        wx:key="*this" 
+        class="td" 
+        style="width:{{ item.width }}rpx;"
+      >
+      {{ item.label }}
+      </view>
+    </view>  
+    <!-- 表格头 end -->
+    
+    <!-- 表格体 start -->
+    <scroll-view 
+        scroll-y="true" 
+        class="tbody"
+        style="width:{{ scrolWidth }}rpx; height:{{ height ? height : 'auto' }};" 
+    >
+      <block 
+        wx:if="{{ data.length > 0 }}" 
+        wx:for-item="it" 
+        wx:for="{{ data }}" 
+        wx:key="*this" 
+        wx:for-index="idx"
+      >
+        <view class="tbody-tr {{ stripe ? 'tbody-tr-stripe' : '' }} {{ border ? 'tbody-tr-border' : ''}} row-class-name">
+          <view wx:for-item="head" 
+            wx:for="{{ headers }}" 
+            wx:key="*this" 
+            class="td cell-class-name" 
+            data-it="{{it}}" 
+            data-row="{{index}}" 
+            data-column="{{idx+1}}"
+            style="width:{{ headers[index].width }}rpx;color:{{ headers[index].color }};" 
+            bindtap="onRowClick"
+          >     
+          {{it[head["prop"]]}}
+          </view>        
+        </view>
+      </block>
+      <!-- 列表无数据处理 -->
+      <block wx:if="{{ data.length === 0 }}">
+        <view class="no-data">{{ msg }}</view>
+      </block>
+    </scroll-view>
+    <!-- 表格体 end -->
+</scroll-view>
+  

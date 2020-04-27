@@ -1,0 +1,38 @@
+.container {
+    padding: 30rpx;
+}
+.group {
+    margin-bottom: 60rpx;
+}
+.group .group-title {
+    margin-bottom: 30rpx;
+    font-size: 34rpx;
+    font-weight: 700;
+    color: #333;
+}
+.group .group-explain {
+    margin-bottom: 20rpx;
+    font-size: 28rpx;
+    color: #666;
+}
+
+
+.header-class {
+    border: 1rpx solid #55C355;
+    background-color: #55C355;
+    color: #fff!important;
+}
+.header-class .td:first-child {
+    color: #55C355;
+}
+.row-class:nth-child(2n) {
+    background-color: #c1e4c175;
+}
+/* .cell-class {
+    border-right: 1rpx solid #fff!important;
+}
+.cell-class:last-child {  
+    border-right: none!important;
+} */
+
+
