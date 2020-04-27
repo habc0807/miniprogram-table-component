@@ -1,6 +1,3 @@
-@import "./common.wxss";
-@import "./reset.wxss";
-
 .table {
   position: relative;
   font-size: 28rpx;

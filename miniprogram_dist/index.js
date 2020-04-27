@@ -92,8 +92,6 @@ module.exports =
 "use strict";
 
 
-var _ = __webpack_require__(1);
-
 Component({
   /**
    * 外部样式类
@@ -188,19 +186,6 @@ Component({
     }
   }
 });
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = {
-  getFlag: function getFlag() {
-    return true;
-  }
-};
 
 /***/ })
 /******/ ]);

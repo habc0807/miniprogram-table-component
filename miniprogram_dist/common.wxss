@@ -1,5 +1,0 @@
-@import "./reset.wxss";
-
-.other {
-    font-size: 20px;
-}
