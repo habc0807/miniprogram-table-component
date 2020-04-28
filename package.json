@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-table-component",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "miniprogram_dist/index.js",
   "scripts": {
