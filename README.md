@@ -15,10 +15,50 @@
 - 主要用于展示结构化数据；
 - 支持自定义操作、自定义表头样式，左右滚动等功能。
 
+# table组件效果展示
+
+`miniprogram-table-component` 小程序自定义table组件
+> 使用此组件需要依赖小程序基础库 2.2.2 版本，同时依赖开发者工具的 npm 构建。具体详情可查阅[官方 npm 文档](https://github.com/wechat-miniprogram/miniprogram-custom-component/blob/master/README.md)。
+
+### 1.基础表格
+
+![](https://user-gold-cdn.xitu.io/2020/4/27/171bb3c0133b981d?w=730&h=556&f=jpeg&s=53411)
+
+### 2.带斑马纹表格
+
+
+![](https://user-gold-cdn.xitu.io/2020/4/27/171bb3c45b9f14a1?w=738&h=542&f=jpeg&s=51861)
+
+### 3.带间隔边框表格
+
+![](https://user-gold-cdn.xitu.io/2020/4/27/171bb3c65c7f22c2?w=714&h=542&f=jpeg&s=55690)
+
+### 4.自定义无数据的提示文案
+
+![](https://user-gold-cdn.xitu.io/2020/4/27/171bb3c884488671?w=722&h=276&f=jpeg&s=21646)
+
+### 5.自定义表格头样式
+
+![](https://user-gold-cdn.xitu.io/2020/4/27/171bb3cb225e3ce7?w=742&h=514&f=jpeg&s=58304)
+
+### 6.固定表头
+
+![](https://user-gold-cdn.xitu.io/2020/4/27/171bb3cd63be7bd2?w=738&h=434&f=jpeg&s=51975)
+
+### 7.表格横向滑动
+
+![](https://user-gold-cdn.xitu.io/2020/4/27/171bb3cffe897b8e?w=726&h=550&f=jpeg&s=64250)
+
+### 8.自定义表格行和单元格样式
+
+
+![](https://user-gold-cdn.xitu.io/2020/4/27/171bb3d26c79535c?w=722&h=556&f=jpeg&s=56737)
+
+
 # 快速上手
 
-一个简易的微信小程序 `table组件`诞生了。新鲜热乎的，先来看看展现效果，后面有使用介绍。
-自定义的 table 组件，适用很简单，就是按照自定组件的用法使用。
+一个简易的微信小程序 `table组件`诞生了。新鲜热乎的，上面看看展现效果，接下来介绍使用方法。
+自定义的 table 组件，使用很简单，就是按照自定组件的用法使用。
 
 ### 1、安装和引入
 - 安装组件： 
