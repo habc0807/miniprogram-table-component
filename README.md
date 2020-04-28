@@ -4,42 +4,19 @@
 
 > 使用此组件需要依赖小程序基础库 2.2.2 版本，同时依赖开发者工具的 npm 构建。具体详情可查阅[官方 npm 文档](https://github.com/wechat-miniprogram/miniprogram-custom-component/blob/master/README.md)。
 
-## table组件效果展示
+## table组件
 
-`miniprogram-table-component` 小程序自定义table组件
-> 使用此组件需要依赖小程序基础库 2.2.2 版本，同时依赖开发者工具的 npm 构建。具体详情可查阅[官方 npm 文档](https://github.com/wechat-miniprogram/miniprogram-custom-component/blob/master/README.md)。
+实现了table的以下功能：
 
-### 1.基础表格
-
-![](./imgs/1.jpg)
-
-### 2.带斑马纹表格
-
-![](./imgs/2.jpg)
-
-### 3.带间隔边框表格
-
-![](./imgs/3.jpg)
-
-### 4.自定义无数据的提示文案
-
-![](./imgs/4.jpg)
-
-### 5.自定义表格头样式
-
-![](./imgs/5.jpg)
-
-### 6.固定表头
-
-![](./imgs/6.jpg)
-
-### 7.表格横向滑动
-
-![](./imgs/7.jpg)
-
-### 8.自定义表格行和单元格样式
-
-![](./imgs/8.jpg)
+- 1.基础表格
+- 2.带斑马纹表格
+- 3.带间隔边框表格
+- 4.自定义无数据的提示文案
+- 5.自定义表格头样式
+- 6.固定表头
+- 7.表格横向滑动
+- 8.自定义表格行和单元格样式
+- 9.某一行被点击时会触发对外事件
 
 ## 快速上手
 
