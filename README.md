@@ -46,7 +46,7 @@ npm install --save miniprogram-table-component
 在wxml页面需要用到的地方使用，如下：
 
 ```html
-<table 
+<table-view 
     headers="{{tableHeader}}" 
     data="{{ row }}" 
     stripe="{{ stripe }}"
@@ -164,7 +164,7 @@ bind:rowHandle | 行被点击时会触发该事件 | string |  | | no
 配置相关代码🌰：
 
 ```javascript
-<table  
+<table-view  
       header-row-class-name="header-class"
       row-class-name="row-class"
       cell-class-name="cell-class"
